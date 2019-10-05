@@ -1,0 +1,57 @@
+.slide {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.slide__text {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slide__heading {
+    color: #0b0c11;
+    font-family: 'Playfair Display', serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 15px;
+    span{
+        display: block;
+        color: #5da8ef;
+        font-family: "leaguespartan-bold" sans-serif;
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 5.4px;
+        margin-bottom: 20px;
+    }
+}
+
+.slide__desc {
+    width: 390px;
+    color: #8f8f8f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.slide__img {
+    width: 1016px;
+    height: 572px;
+    background: url("/img/img/img-header.jpg") no-repeat center / cover;
+}
+
+.slide__img--bg-1 {
+    background: url("/img/img/img-header.jpg");
+}

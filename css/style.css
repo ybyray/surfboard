@@ -1,0 +1,130 @@
+body {
+  background: url("./img/bg/bg-lines.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: initial;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 128px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-right: 190px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin-right: 40px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  font-family: "leaguespartan-bold" sans-serif;
+  color: #0b0c11;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.58px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.slide__text {
+  width: 500px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.slide__heading {
+  color: #0b0c11;
+  font-family: 'Playfair Display', serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 15px;
+}
+
+.slide__heading span {
+  display: block;
+  color: #5da8ef;
+  font-family: "leaguespartan-bold" sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+  margin-bottom: 20px;
+}
+
+.slide__desc {
+  width: 390px;
+  color: #8f8f8f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+.slide__desc p {
+  margin: 0;
+  padding: 0;
+}
+
+.slide__img {
+  width: 1016px;
+  height: 572px;
+  background: url("/img/img/img-header.jpg") no-repeat center/cover;
+}
+
+.slide__img--bg-1 {
+  background: url("/img/img/img-header.jpg");
+}
+
+/*
+
+    font-family: 'Fira Sans', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+*/
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+@font-face { 
+    font-family: "leaguespartan-bold" sans-serif;
+    src: url(/fonts/leaguespartan-bold.otf) format("otf"),
+         url(/fonts/leaguespartan-bold.woff) format("woff"),
+         url(/fonts/leaguespartan-bold.ttf) format("truetype");
+         font-weight: 700;
+         font-style: normal;
+}
