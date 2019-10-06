@@ -49,9 +49,6 @@
 .slide__img {
     width: 1016px;
     height: 572px;
-    background: url("./img/img/img-header.jpg") no-repeat center / cover;
-}
-
-.slide__img--bg-1 {
-    background: url("./img/img/img-header.jpg");
+    background: url("/img/img/img-header.jpg") no-repeat center / cover;
+    box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);
 }
