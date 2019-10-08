@@ -7,7 +7,8 @@
         "../scss/_nav.scss",
         "../scss/_header-slider.scss",
         "../scss/_header.scss",
-        "../scss/_quote.scss"
+        "../scss/_quote.scss",
+        "../scss/_club-desc.scss"
     ],
     "names": [],
     "file": "style.css"
