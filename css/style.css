@@ -1,5 +1,5 @@
 body {
-  background: url(/img/bg/bg-lines.png);
+  background: url(./img/bg/bg-lines.png);
   background-repeat: repeat-y;
   background-position: center;
   background-size: initial;
@@ -146,7 +146,7 @@ body {
 .slide__img {
   width: 1016px;
   height: 572px;
-  background: url(/img/img/img-header.jpg) no-repeat center/cover;
+  background: url(./img/img/img-header.jpg) no-repeat center/cover;
   -webkit-box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);
           box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);
 }
