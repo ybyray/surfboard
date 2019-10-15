@@ -281,19 +281,32 @@ header {
 }
 
 .site-desc {
-  width: 12px;
-  height: 12px;
-  color: #0b0c11;
-  font-family: "leaguespartan-bold" sans-serif;
-  opacity: 0.3;
-  font-size: 9px;
-  font-weight: 700;
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing: 5.4px;
-  position: absolute;
-  right: -50px;
-  top: 58px;
+  background-color: red;
+}
+
+@media (min-width: 1254px) {
+  .site-desc {
+    width: 12px;
+    height: 12px;
+    color: #0b0c11;
+    font-family: "leaguespartan-bold" sans-serif;
+    opacity: 0.3;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+    position: absolute;
+    right: -50px;
+    top: 58px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .site-desc {
+    right: 30px;
+    top: 170px;
+  }
 }
 
 .site-desc__content {
