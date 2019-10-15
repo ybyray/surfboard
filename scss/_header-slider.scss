@@ -9,11 +9,33 @@
 }
 
 .slide__text {
-    width: 500px;
+    background-color: #fff;
+    padding: 25px;
+    padding-bottom: 10px;
+    min-width: 260px;
+    max-width: 680px;
     position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    box-shadow: -16px 0px 65px rgba(11, 12, 17, 0.2);
+    text-align: center;
+
+
+    @media (min-width: 1254px) {
+        background-color: transparent;
+        text-align: left;
+        padding: 0;
+        top: 50%;
+        bottom: auto;
+        left: 0;
+        box-shadow: none;
+        width: 500px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 .slide__heading {
