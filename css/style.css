@@ -421,7 +421,7 @@ header {
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 640px) {
   .quote-wrapper {
     width: 610px;
     padding: 0;
@@ -477,8 +477,15 @@ header {
 }
 
 .club-desc {
-  padding-top: 110px;
-  padding-bottom: 95px;
+  padding-top: 55px;
+  padding-bottom: 47px;
+}
+
+@media (min-width: 1254px) {
+  .club-desc {
+    padding-top: 110px;
+    padding-bottom: 95px;
+  }
 }
 
 .club-desc-wrapper {
@@ -492,11 +499,28 @@ header {
           flex-direction: column;
 }
 
+.club-desc__img {
+  width: 70%;
+}
+
+@media (min-width: 1254px) {
+  .club-desc__img {
+    width: auto;
+  }
+}
+
 .club-desc-video {
   position: absolute;
   right: 0;
   top: 43px;
   z-index: 1;
+  width: 60%;
+}
+
+@media (min-width: 1254px) {
+  .club-desc-video {
+    width: auto;
+  }
 }
 
 .club-desc-video__control {
@@ -505,12 +529,19 @@ header {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 68px;
-  height: 68px;
+  width: 34px;
+  height: 34px;
   -webkit-box-shadow: -2px -2px 35px rgba(0, 0, 0, 0.13);
           box-shadow: -2px -2px 35px rgba(0, 0, 0, 0.13);
   background-color: #5da8ef;
   border-radius: 50px;
+}
+
+@media (min-width: 1254px) {
+  .club-desc-video__control {
+    width: 68px;
+    height: 68px;
+  }
 }
 
 .club-desc-video__control img {
@@ -519,10 +550,16 @@ header {
   top: 50%;
   -webkit-transform: translate(-35%, -50%);
           transform: translate(-35%, -50%);
+  width: 35%;
+}
+
+@media (min-width: 1254px) {
+  .club-desc-video__control img {
+    width: auto;
+  }
 }
 
 .club-desc__text {
-  width: 340px;
   opacity: 0.65;
   color: #616161;
   font-family: 'Poppins', sans-serif;
@@ -530,18 +567,43 @@ header {
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0.35px;
-  margin-bottom: 45px;
-  margin-top: 60px;
+  margin-bottom: 0;
+  margin-top: 90px;
   margin-left: 115px;
+  max-width: 450px;
 }
 
-.club-desc__link {
-  margin-left: 115px;
+@media (min-width: 855px) and (max-width: 1254px) {
+  .club-desc__text {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1254px) {
+  .club-desc__text {
+    margin-left: 115px;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    width: 340px;
+  }
+}
+
+@media (min-width: 1254px) {
+  .club-desc__link {
+    margin-left: 115px;
+  }
 }
 
 .shop {
-  padding-top: 70px;
-  padding-bottom: 110px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+
+@media (min-width: 1254px) {
+  .shop {
+    padding-top: 70px;
+    padding-bottom: 110px;
+  }
 }
 
 .shop-slider {
@@ -558,8 +620,18 @@ header {
 
 .board {
   position: relative;
-  width: 350px;
+  width: 250px;
   height: 435px;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 650px) {
+  .board {
+    padding-left: 185px;
+    width: 620px;
+  }
 }
 
 .board__img-holder {
