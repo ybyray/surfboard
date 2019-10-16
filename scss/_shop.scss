@@ -28,6 +28,11 @@
         padding-left: 185px;
         width: 435px + 185px;
     }
+
+    @media (min-width: 1254px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .board__img-holder {
@@ -37,6 +42,14 @@
     width: 250px;
     height: 320px;
     background-color: #e8e8e8;
+
+    @media (min-width: 650px) {
+        left: 185px;
+    }
+
+    @media (min-width: 1254px) {
+        left: 0;
+    }
 }
 
 .board__img {
@@ -50,7 +63,19 @@
     width: 200px;
     position: absolute;
     top: 196px;
-    left: 216px;
+    right: 0;
+    z-index: 9;
+    text-align: right;
+
+    @media (min-width: 650px) {
+        right: auto;
+        left: 216px + 185px;
+        text-align: left;
+    }
+
+    @media (min-width: 1254px) {
+        left: 216px;
+    }
 }
 
 .board__cat {
